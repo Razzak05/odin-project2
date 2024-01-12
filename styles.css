@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply Roboto font to the entire body */
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Style for the first section with a background color */
+.First-section {
+    background-color: #1f2937;
+}
+
+/* Style for the header logo */
+#Header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.Navbar{
+    display:flex;
+    direction: row;
+}
+
+.header-link{
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 10px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.Navbar-left,.Navbar-right{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.header-para{
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-top: 10px;
+  margin-right:15px;
+}
+
+.Content{
+    display:flex;
+    flex-direction: row;
+    margin: 50px;
+}
+.aladin{
+    margin: 50px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.Contentright{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 100px;
+}
+
+.Content-left{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.sign-up{
+  color: white;
+  background-color: #3882f6;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  margin-top:20px;
+  margin-right: 500px;
+  border-color: #3882f6;
+  
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.rows-of-blueboxs{
+    display: flex;
+    flex-direction: row;
+}
+
+.blue-box {
+    border: 2px solid;
+    border-color: #3882f6;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.p-second{
+    margin: 23px;
+}
+
+.bag1{
+    border-radius: 20px;
+    height: 140px;
+    width: 125px;
+}
+.bag2{
+    border-radius: 20px;
+    height: 140px;
+    width: 200px;
+}
+.bag3{
+    border-radius: 20px;
+    height: 150px;
+    width: 155px;
+}
+.bag4{
+    border-radius: 20px;
+    height: 140px;
+    width: 1150px;
+}
+.third-section{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: flex;
+}
+.quote{
+    margin: 100px;
+}
+
+.button {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white; /* Specify solid border */
+    width: 100px; /* Adjust width for better visibility */
+    height: 40px; /* Adjust height for better visibility */
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+    margin-right: 20px;/* Add pointer cursor for better UX */
+}
+
+.h3-text{
+    color: #f9faf8;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.para-text {
+    color: #f9faf8;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.fourth-section {
+    background-color: #f9faf8;
+    padding: 20px; /* Add some padding for better spacing */
+}
+
+.sub-four {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between elements */
+    align-items: center;
+    border-radius: 10px;
+}
+
+.footer-1-left {
+    max-width: 60%; /* Limit the maximum width to maintain responsiveness */
+}
+
+.button-container {
+    margin-left: 20px; /* Adjust margin for better spacing */
+}
+
+.fifth-section{
+    background-color: #1f2937;
+    display:flex;
+    justify-content: center;
+}
+.copyright{
+    color: white;
+    margin: 50px
+}
